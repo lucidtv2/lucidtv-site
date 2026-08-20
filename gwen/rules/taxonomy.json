@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "note": "The fixed vocabulary the Stage 1 tagger may emit. It may emit NOTHING ELSE. Adding a tag is a canon change and requires a version bump plus a ledger note, because every downstream rule keys off these strings. Ten tags is deliberate: a local model asked to choose among ten well-separated labels at temperature 0 is consistent across hundreds of episodes; asked to choose among thirty overlapping ones, it is not.",
+  "tags": [
+    {
+      "id": "CLINGING",
+      "gloss": "The speaker names wanting, needing, holding on, or being unable to let go.",
+      "source": "tanha — the compulsive thirst; the fuel",
+      "examples": ["I couldn't stop checking", "she needed him to stay", "we hold on past the point it helps"]
+    },
+    {
+      "id": "LOSS",
+      "gloss": "Something ends, decays, is taken, or is acknowledged as impermanent.",
+      "source": "anicca — impermanence",
+      "examples": ["it was gone by morning", "nothing built stays built", "the last time either of them spoke"]
+    },
+    {
+      "id": "SEEING",
+      "gloss": "Recognition, clarity, insight. The moment the speaker or subject understands.",
+      "source": "vipassana — clear seeing; gnosis as sight, not secret",
+      "examples": ["and then I saw what it actually was", "the whole shape of it became obvious"]
+    },
+    {
+      "id": "DENIAL",
+      "gloss": "Refusing, looking away, defending a position, insisting against evidence.",
+      "source": "avidya — ignorance as active turning-away",
+      "examples": ["he told himself it was fine", "we agreed not to mention it"]
+    },
+    {
+      "id": "NAMING",
+      "gloss": "An act of labelling: a definition is given, a term introduced, a thing called by its name.",
+      "source": "namarupa — name-and-form, the fourth nidana",
+      "examples": ["this is called anicca", "the Gnostics called him Yaldabaoth", "there's a word for this"]
+    },
+    {
+      "id": "THRESHOLD",
+      "gloss": "A transition, boundary, door, gate, or explicit 'between'. Also structural: a hard topic change.",
+      "source": "the ascent through the spheres; each gate its own passage",
+      "examples": ["on the other side of that", "somewhere between the two", "and that's where it turns"]
+    },
+    {
+      "id": "SELF",
+      "gloss": "Assertion of identity. First-person claims about what the speaker is, owns, or deserves.",
+      "source": "atta / the constructed I",
+      "examples": ["I'm the kind of person who", "that was mine", "I've earned this"]
+    },
+    {
+      "id": "OTHER",
+      "gloss": "Genuine reference to another being's experience; compassion, care, or obligation toward someone else.",
+      "source": "the bodhisattva turn — staying in, for others",
+      "examples": ["she was carrying it for both of them", "whoever needs it next"]
+    },
+    {
+      "id": "MACHINE",
+      "gloss": "Reference to systems, feeds, algorithms, watching, being measured, or being fed upon.",
+      "source": "loosh / the archons / the feed itself",
+      "examples": ["the algorithm decides", "something is counting this", "you are being watched by the thing you're watching"]
+    },
+    {
+      "id": "SILENCE",
+      "gloss": "A gap of 1.2 seconds or longer with no speech. Detected mechanically from the transcript, NOT judged by the model.",
+      "source": "the pause is the only place she can get a word in",
+      "examples": []
+    }
+  ]
+}
