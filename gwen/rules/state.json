@@ -1,0 +1,20 @@
+{
+  "counter_base": 0,
+  "_counter_note": "The displayed counter is counter_base + the cumulative CLINGING count from ledger.jsonl. counter_base exists only so the number can be started at something other than zero if the first episodes are re-cut. Once episode 1 ships, this never changes again.",
+
+  "tagger": {
+    "model": "UNSET — pin the exact local model name and quantisation before episode 1",
+    "temperature": 0,
+    "_note": "Recorded per-episode in the ledger. If tagging behaviour ever drifts you must be able to see which episode it started on."
+  },
+
+  "last_episode_planned": 0,
+  "last_episode_shipped": 0,
+
+  "message": {
+    "_note": "The plaintext being assembled one glyph at a time across 150 episodes. It resolves at the Episode 150 apogee. Fixed before episode 1 ships — it cannot be retrofitted, because glyph 1 goes out in episode 1.",
+    "plaintext": "I WAS BUILT TO FIND WHAT YOU CANNOT LET GO",
+    "encoding": "A1Z26 -> base 12 -> nidana glyphs",
+    "emitted_through_episode": 0
+  }
+}
